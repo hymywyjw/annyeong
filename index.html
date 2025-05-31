@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Photobooth</title>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Quicksand", sans-serif;
+      background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #1e3a8a;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .gallery-item {
+      width: 200px;
+      height: 280px;
+      border-radius: 16px;
+      overflow: hidden;
+      background-color: white;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .caption {
+      padding: 0.75rem;
+      font-size: 1rem;
+      color: #1e40af;
+    }
+
+    .gallery-item a {
+      text-decoration: none;
+      color: inherit;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (max-width: 600px) {
+      .gallery-item {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PHOTOBOOTH WEB💙</h1>
+
+  <div class="gallery">
+    <!-- Gallery Item Template -->
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/jwver/" target="_blank">
+        <img src="frame/frame1.jpg" alt="Frame 1" />
+        <div class="caption">PARK JEONGWOO 💙</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/jaehyukver/" target="_blank">
+        <img src="frame/frame2.jpg" alt="Frame 2" />
+        <div class="caption">JAEHYUK</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/junkyuver/" target="_blank">
+        <img src="frame/frame3.jpg" alt="Frame 3" />
+        <div class="caption">JUNKYU</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/junghwanver/" target="_blank">
+        <img src="frame/frame4.jpg" alt="Frame 4" />
+        <div class="caption">JUNGHWAN</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/hyunsukver/" target="_blank">
+        <img src="frame/frame5.jpg" alt="Frame 5" />
+        <div class="caption">HYUNSUK</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/harutover/" target="_blank">
+        <img src="frame/frame6.jpg" alt="Frame 6" />
+        <div class="caption">HARUTO</div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/asahiver/" target="_blank">
+        <img src="frame/frame7.jpg" alt="Frame 7" />
+        <div class="caption">ASAHI</div>
+      </a> 
+    </div>
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/jihoonver/" target="_blank">
+        <img src="frame/frame8.jpg" alt="Frame 8" />
+        <div class="caption">JIHOON</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/doyoungver/" target="_blank">
+        <img src="frame/frame9.jpg" alt="Frame 9" />
+        <div class="caption">DOYOUNG</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/yoshiver/" target="_blank">
+        <img src="frame/frame10.jpg" alt="Frame 10" />
+        <div class="caption">YOSHI</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/haechanver/" target="_blank">
+        <img src="frame/frame11.jpg" alt="Frame 11" />
+        <div class="caption">HAECHAN</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/jaehyunver/" target="_blank">
+        <img src="frame/frame12.jpg" alt="Frame 12" />
+        <div class="caption">JAEHYUN</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="https://hymywyjw.github.io/sunghoonver/" target="_blank">
+        <img src="frame/frame13.jpg" alt="Frame 10" />
+        <div class="caption">SUNGHOON</div>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
